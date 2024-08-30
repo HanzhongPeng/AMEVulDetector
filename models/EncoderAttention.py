@@ -1,10 +1,10 @@
 from __future__ import print_function
-from parser import parameter_parser
+from my_parser import parameter_parser
 import tensorflow as tf
 from sklearn.utils import compute_class_weight
 from sklearn.metrics import confusion_matrix
 
-tf.enable_eager_execution()
+# tf.enable_eager_execution()
 tf.compat.v1.set_random_seed(6603)
 
 print(tf.__version__)

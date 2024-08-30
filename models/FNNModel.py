@@ -4,7 +4,7 @@ Author: Messi-Q
 Date: Created on 11:08 2020-10-22  
 """
 from __future__ import print_function
-from parser import parameter_parser
+from my_parser import parameter_parser
 import tensorflow as tf
 from sklearn.utils import compute_class_weight
 from sklearn.metrics import confusion_matrix

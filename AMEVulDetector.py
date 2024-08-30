@@ -1,5 +1,5 @@
 import numpy as np
-from parser import parameter_parser
+from my_parser import parameter_parser
 from models.EncoderWeight import EncoderWeight
 from models.EncoderAttention import EncoderAttention
 from models.FNNModel import FNNModel
